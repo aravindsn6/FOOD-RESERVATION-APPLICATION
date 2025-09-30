@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../assets/Bg.jpg");
+    margin: 0;
+    padding: 0;
+}
+.success-message {
+    text-align: center;
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login-btn {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.login-btn:hover {
+    background-color: #218838;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+
+.form-container {
+    opacity: .9;
+    
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blur-container{
+    opacity: 1px;
+    filter: blur(10px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2 {
+    text-align: center;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2a74c3;
+}
+.login-btn {
+    text-decoration: none;
+    color: white;
+    background: #1338BE;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+.error {
+    color: red;
+    text-align: center;
+}
+
+.dashboard-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dashboard-container a {
+    display: inline-block;
+    margin-top: 20px;
+    color: cornflowerblue;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.dashboard-container a:hover {
+    text-decoration: underline;
+}

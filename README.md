@@ -1,2 +1,7 @@
-# FOOD-RESERVATION-APPLICATION
-The primary goal of this project is to develop a system to pre-order a customer’s meal before physically reaching the canteen/restaurant, avoiding the hassle and unexpected issues from the canteen/restaurant’s side at busy hours.
+README
+
+
+
+* Canteen users must provide their username by having "**canteen**" before anything. Otherwise it will redirect to user home page.
+* New users cloning this repository, kindly change the canteen name to whatever you like using the above rules.
+* Kindly change the food item's images by changing the images in **assets** folder

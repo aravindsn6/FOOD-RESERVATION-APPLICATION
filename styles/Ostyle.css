@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("assets/HBg.png");
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container Box */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1338BE;
+    color: white;
+}
+/* Top Right Section */
+.top-right {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Profile Image */
+.profile-link img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.profile-link img:hover {
+    transform: scale(1.1);
+}
+
+/* Style for the dropdown container */
+.canteen-dropdown {
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+
+/* Style for the label */
+.canteen-dropdown label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+/* Style for the select dropdown */
+.canteen-dropdown select {
+    padding: 8px;
+    color: White;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1338BE ;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.canteen-dropdown select:hover {
+    border-color: #888;
+}
+
+/* Focus effect */
+.canteen-dropdown select:focus {
+    outline: none;
+    color:white;
+    border-color: #555;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Logout Button */
+.logout-btn {
+    text-decoration: none;
+    color: white;
+    background: #1338BE;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.logout-btn:hover {
+    background: #c82333;
+}
+
+input[type="number"]
+{
+    width:100px;
+}
+
+button[type="submit"]
+{
+    text-decoration: none;
+    color: white;
+    background: #c82333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background: #218838;
+}
+button a {
+    color: white;  /* Ensure text color is white */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+    display: block;  /* Make it fill the button */
+}
+/* Food Grid */
+.food-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Food Item Box */
+.food-item {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+}
+
+.food-item img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    left: 0;
+}
+
+.bottom-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bottom-nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: white;
+    background: #c82333;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.bottom-nav a:hover {
+    background: #218838;
+}

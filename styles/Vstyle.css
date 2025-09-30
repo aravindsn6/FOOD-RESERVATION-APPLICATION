@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1338BE;
+    color: white;
+}
+.status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.pending {
+    color: red;
+}
+
+
+.preparing {
+    color: orange;
+}
+
+.completed {
+    color: green;
+}
+
+.cancelled {
+    color: red;
+}
+
+.back-btn {
+    display: block;
+    width:85%;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: #1338BE;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
+select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: White ;
+    cursor: pointer;
+}
+
+select:hover {
+    border-color: #888;
+}
+
+select:focus {
+    outline: none;
+    border-color: #555;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+input[type="text"],input[type="password"],input[type="number"]{
+    width: 94%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.qy input["number"]{
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #2E8B57;
+}
